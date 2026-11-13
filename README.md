@@ -19,7 +19,7 @@ sudo apt update && sudo apt install curl unzip -y
 Unduh dan jalankan skrip instalasi resmi untuk Linux:
 
 ```bash
-curl -s https://ohmyposh.dev | bash -s
+curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
 
 Jika perintah `oh-my-posh` belum dikenali oleh terminal, pastikan direktori `~/.local/bin` sudah terdaftar di dalam variabel `PATH` pada file `~/.bashrc`:
